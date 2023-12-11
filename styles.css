@@ -2,6 +2,9 @@
 * {
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
   box-sizing: border-box;
 }
 :root {
@@ -12,7 +15,7 @@
 }
 header {
   background-color: var(--primary);
-
+  height: 110px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -20,18 +23,19 @@ header {
 
 
 .img-logo {
-  width: 170px;
+  width: 110px;
 }
 .nav-bar,
 ul {
   display: flex;
-  list-style-type: none;
-  font-weight: 500;
+  
+  font-weight: 400;
   gap: 20px;
   color: var(--bg-logo);
-  font-size: 19px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
-li:hover{
+a:hover{
     color: var(--letters);
 }
 
@@ -40,3 +44,4 @@ li:hover{
   padding: 10px;
   border-radius: 10px;
 }
+
