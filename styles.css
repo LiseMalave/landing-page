@@ -14,7 +14,7 @@
 
 :root {
   --bg-nav:#442f57;
-  --bg-btn:var(--bg-nav);
+  --bg-about:#442f5795;
   --letters-secondary: #fff;
   --letters-primary: rgba(0, 255, 247, 0.479);
 }
@@ -54,43 +54,38 @@ ul {
  
 }
 
+/* Sección hero */
 .hero{
-  
+  height: 60vh;
   color: var(--letters-secondary);  
   font-size: 18px;
-}
-
-
-
-.hero{
-
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  
+  align-items: end;
+  justify-content: center;
+  gap: 180px;
+  margin-bottom: 100px;
 }
 
 .hero-content{
-  width: 400px;
+  width: 60vh;
   display: flex;
   flex-direction: column;
   gap: 70px;
   justify-content: space-evenly;
+  letter-spacing: 1px;
+  line-height: 50px;
+  text-align: justify;
   align-items: flex-start;
 }
 
-.hero-img{
-  margin-top: 50px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  width: 40%;
+.hero-img img{
+  
+  border-radius: 60%;
 }
 
 .hero-btn{
   display: flex;
   
- 
   justify-content: center;
   gap: 30px;
 
@@ -108,13 +103,42 @@ ul {
 .hero-btn .hero-btn-secondary{
   background: none;
   border: 3px solid var(--bg-nav);
+  
+}
+
+.hero-btn-primary, .hero-btn-secondary{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-btn .hero-btn-primary{
   background: var(--bg-nav);
+  text-align: center;
   
 }
 
 .hero-btn,.hero-btn-primary,a{
   color: var(--letters-primary);
+}
+/* Seccón About */
+.about {
+  width: 100%;
+  display: flex;
+  height: 30vh;
+  background-color: var(--bg-about);
+ text-align: center;
+ letter-spacing: 2px;
+ line-height: 50px;
+ justify-content: center;
+ align-items: center;
+ color: var(--letters-secondary);
+ font-size: 18px;
+
+}
+
+.about-text{
+  width: 50%;
+  display: flex;
+ 
 }
