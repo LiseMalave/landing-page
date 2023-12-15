@@ -18,7 +18,7 @@
   --letters-secondary: #fff;
   --letters-primary: rgba(0, 255, 247, 0.479);
 }
-header {
+.header {
   background-color: var(--bg-nav);
   height: 70px;
   
