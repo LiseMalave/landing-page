@@ -18,10 +18,11 @@
   --letters-secondary: #fff;
   --letters-primary: rgba(0, 255, 247, 0.479);
 }
+/* nota: agregar siempre el width al header y */
 .header {
   background-color: var(--bg-nav);
   height: 70px;
-  
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -56,6 +57,7 @@ ul {
 
 /* Sección hero */
 .hero{
+  width: 100%;
   height: 60vh;
   color: var(--letters-secondary);  
   font-size: 18px;
@@ -67,6 +69,7 @@ ul {
 }
 
 .hero-content{
+  width: 100%;
   width: 60vh;
   display: flex;
   flex-direction: column;
@@ -79,6 +82,7 @@ ul {
 }
 
 .hero-img img{
+ 
   
   border-radius: 60%;
 }
