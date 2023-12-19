@@ -1,7 +1,7 @@
 @media(max-width: 810px){
     .hero{
-            
-        width: 100%;
+        max-width: 100%;  
+        
         height: 40vh;
         justify-content: left;
         align-items: center;
@@ -17,7 +17,7 @@
        background-color:  #cbc8cc3c;
        justify-content: center;
        align-items: center;
-        width: 100%;
+        max-width: 100%;
         
     }
     .hero-content p{
@@ -28,9 +28,19 @@
         width: 0;
     }
     .sobre-mi{
-        width: 100vw;
+        max-width: 100vw;
         justify-content: center;
         align-items: center;
+    }
+    .container-card{
+        gap: 40px;
+    }
+    .titulo-card{
+        text-align: center;
+        font-size: 22px;
+    }
+    .img img{
+        width: 30%;
     }
     .titulo-principal-card{
         display: flex;
@@ -54,10 +64,22 @@
         
     }
     .icons-contact{
-        width: 150%;
+        max-width: 150%;
     }
     .contact-iframe iframe{
-        width: 110%;
+        max-width: 110%;
+    }
+    .icons-contact{
+        width: 250%;
+    }
+
+    .logo-footer{
+        justify-content: center;
+    }
+    .texto-footer{
+        width: 50%;
     }
 }
 
+@media(max-width: 576px){
+}
