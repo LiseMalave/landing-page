@@ -6,14 +6,15 @@
         justify-content: left;
         align-items: center;
         font-size: 17px;
+        background-size: cover;
         margin-bottom: 0;
         gap:0;
     }
 
     .hero-content{
-       
+       color: var(--letters-secondary);
        display: flex;
-       
+       background-color:  #cbc8cc3c;
        justify-content: center;
        align-items: center;
         width: 100%;
@@ -25,6 +26,38 @@
 
     .hero-img{
         width: 0;
+    }
+    .sobre-mi{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo-principal-card{
+        display: flex;
+        
+    }
+    .contact{
+        justify-content: start;
+        gap: 70px;
+    }
+    .contact-title{
+        width: 70%;
+        text-align: center;
+    }
+    .contact-info{
+        padding-left: 40px;
+        width: 40%;
+    }
+    .contact-text{
+        
+        justify-content: start;
+        
+    }
+    .icons-contact{
+        width: 150%;
+    }
+    .contact-iframe iframe{
+        width: 110%;
     }
 }
 
