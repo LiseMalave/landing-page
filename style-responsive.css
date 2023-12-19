@@ -1,3 +1,5 @@
+
+
 @media(max-width: 810px){
     .hero{
         max-width: 100%;  
@@ -81,8 +83,49 @@
     }
 }
 
-@media(max-width: 426px){
-    .hero{
-        
+@media(max-width: 576px){
+   
+    
+    .menu-label{
+        display: flex;
+
     }
+
+    #menu-toggle:checked + .nav-bar-list{
+        display: flex;
+    }
+
+    .nav-bar-list{
+
+        position: absolute;
+        top: 70px;
+        left: 5%;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #cbc8cc3c;
+        display: none;
+    }
+
+    .hero{
+        font-size: 14px;
+    }
+
+    .hero-content{
+        gap: 10px;
+        line-height: 35px;
+        justify-content: end;
+        padding-bottom: 12px;
+       }
+    .about{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-text{
+        max-width: 90%;
+    }
+
+
 }
+
