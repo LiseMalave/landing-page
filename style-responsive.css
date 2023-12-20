@@ -94,7 +94,10 @@
     #menu-toggle:checked + .nav-bar-list{
         display: flex;
     }
-
+    .nav-bar ul{
+        gap: 15px;
+        border-radius: 5px;
+    }
     .nav-bar-list{
 
         position: absolute;
@@ -113,10 +116,10 @@
     }
 
     .hero-content{
-        gap: 10px;
-        line-height: 35px;
+        gap: 9px;
+        line-height: 32px;
         justify-content: end;
-        padding-bottom: 12px;
+        padding-bottom: 10px;
        }
     .about{
         font-size: 15px;
@@ -125,7 +128,61 @@
     .about-text{
         max-width: 90%;
     }
+    .container-card{
+        gap: 60px;
+    }
+    .titulo-card{
+        font-size: 18px;
+    }
+    .card-text{
+        display: none;
+    }
+    .img img{
+        padding-top: 50px;
+        width: 70%;
+    }
+    .contact{
+        justify-content: start;
+    }
 
+    .contact-title{
+        width: 180%;
+        
+        font-size: 25px;
+    }
+    .contact-text{
+        
+        justify-content: start;
+        gap: 20px;
+    }
+    .contact-text img{
+        width: 35px;
+    }
+    .contact-iframe{ 
+        display: none;
+    }
+    .icons-contact{
+    
+        justify-content: start;
+    }
+    .icons-contact img{
+         width: 12%;
+    }
 
+    .footer{
+        
+        font-size: 24px;
+        justify-content: center;
+        text-align: center;
+        
+        width: 100%;
+    }
+
+    .logo-footer{
+        display: none;
+    }
+
+    
+    
 }
 
