@@ -1,7 +1,7 @@
 
 
 @media(max-width: 810px){
-    .hero{
+    #hero{
         max-width: 100%;  
         
         height: 40vh;
@@ -29,17 +29,16 @@
     .hero-img{
         width: 0;
     }
-    .sobre-mi{
-        max-width: 100vw;
-        justify-content: center;
-        align-items: center;
+    #about{
+        height: 38vh;
     }
+   
     .container-card{
-        gap: 40px;
+        gap: 18px;
     }
     .titulo-card{
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
     }
     .img img{
         width: 30%;
@@ -48,7 +47,13 @@
         display: flex;
         
     }
-    .contact{
+
+    .card-text{
+        width: 80%;
+        display: flex; 
+        line-height: 17px;
+    }
+    #contact{
         justify-content: start;
         gap: 70px;
     }
@@ -111,7 +116,7 @@
         display: none;
     }
 
-    .hero{
+    #hero{
         font-size: 14px;
     }
 
@@ -121,7 +126,7 @@
         justify-content: end;
         padding-bottom: 10px;
        }
-    .about{
+    #about{
         font-size: 15px;
         line-height: 25px;
     }
@@ -141,7 +146,7 @@
         padding-top: 50px;
         width: 70%;
     }
-    .contact{
+    #contact{
         justify-content: start;
     }
 
