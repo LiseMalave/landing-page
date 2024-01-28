@@ -16,7 +16,7 @@
   --letters: #000;
   --letters-primary: rgba(0, 255, 247, 0.479);
 }
-/* nota: agregar siempre el width al header y */
+/* nota: agregar siempre el width al header */
 .header {
   background-color: var(--bg-nav);
   height: 70px;
